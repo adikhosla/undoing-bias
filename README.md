@@ -28,5 +28,6 @@ Please cite our paper if you use this code:
     Undoing the Damage of Dataset Bias
     Aditya Khosla, Tinghui Zhou, Tomasz Malisiewicz, Alexei A. Efros, Antonio Torralba. 
     European Conference on Computer Vision (ECCV), 2012
-    <a href="papers/eccv2012_khosla.pdf" onClick="_gaq.push(['_trackEvent', 'Downloads', 'pdf', 'papers/eccv2012_khosla.pdf']);">[paper]</a> <a href="bibtex/eccv2012.bib" onClick="_gaq.push(['_trackEvent', 'Downloads', 'bibtex', 'bibtex/eccv2012.bib']); return popup(this, 'notes');">[bibtex]</a> <a href="projects/bias/" onClick="_gaq.push(['_trackEvent', 'Projects', 'bias', 'projects/bias']);">[project page]</a>
+
+<a href="papers/eccv2012_khosla.pdf">[paper]</a> <a href="bibtex/eccv2012.bib">[bibtex]</a> <a href="projects/bias/">[project page]</a>
 
