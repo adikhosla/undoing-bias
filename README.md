@@ -15,10 +15,12 @@ Before you can use the code, you need to download this repository and compile th
 Demo
 ----
 
-Features for all datasets
--------------------------
+Features for classification experiments
+---------------------------------------
 
-We used 4 datasets in our experiments, namely Caltech-101
+We used 4 datasets in our experiments, namely Caltech-101, LabelMe, PASCAL VOC 2007 and SUN09 (described in the paper). The features used in the classification experiments are available for download from the <a href="http://undoingbias.csail.mit.edu">project website</a> in Matlab format. 
+
+The <a href="http://undoingbias.csail.mit.edu/features.tar">archive</a> contains 4 mat files with features for the train and test images and the labels for the set of images for the five object categories used in our experiments (car, cat, chair, dog, person).
 
 Reference
 ---------
@@ -29,5 +31,5 @@ Please cite our paper if you use this code:
     Aditya Khosla, Tinghui Zhou, Tomasz Malisiewicz, Alexei A. Efros, Antonio Torralba. 
     European Conference on Computer Vision (ECCV), 2012
 
-<a href="papers/eccv2012_khosla.pdf">[paper]</a> <a href="bibtex/eccv2012.bib">[bibtex]</a> <a href="projects/bias/">[project page]</a>
+<a href="http://people.csail.mit.edu/khosla/papers/eccv2012_khosla.pdf">[paper]</a> <a href="http://people.csail.mit.edu/khosla/bibtex/eccv2012.bib">[bibtex]</a> <a href="http://undoingbias.csail.mit.edu/">[project page]</a>
 
