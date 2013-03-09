@@ -31,7 +31,7 @@ The <a href="http://undoingbias.csail.mit.edu/features.tar">archive</a> contains
 
 Bundled Code
 ------------
-We have modified the code from the discriminatively trained deformable parts model (<a href="http://cs.brown.edu/~pff/latent-release3/">voc-release3</a>) to suit our max-margin framework, and included some auxillary files with no modifications. In addition, we use code from the <a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2012/">PASCAL VOC</a> development kit for Average Precision (AP) calculation.
+We have modified the code from the discriminatively trained deformable parts model (<a href="http://cs.brown.edu/~pff/latent-release3/">voc-release3</a>) to implement our max-margin framework, and included some auxillary files with no modifications. In addition, we adapt code from the <a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2012/">PASCAL VOC</a> development kit for Average Precision (AP) calculation.
 
 Questions and Comments
 ----------------------
