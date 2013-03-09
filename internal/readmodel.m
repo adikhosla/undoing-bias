@@ -1,8 +1,16 @@
 function [blocks, blocks_bias] = readmodel(f, model)
-
-% blocks = readmodel(f, model)
-% Read model paramaters from data file.
-% Used in the interface with the gradient descent algorithm.
+%
+% Copyright Aditya Khosla http://mit.edu/khosla
+%
+% This function demonstrates how to use the code base from
+% the paper listed below.
+%
+% Please cite this paper if you use this code in your publication:
+%   A. Khosla, T. Zhou, T. Malisiewicz, A. Efros, A. Torralba
+%   Undoing the Damage of Dataset Bias
+%   European Conference on Computer Vision (ECCV) 2012
+%   http://undoingbias.csail.mit.edu
+%
 
 fid = fopen(f, 'rb');
 for i = 1:model.numblocks

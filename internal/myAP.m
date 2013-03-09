@@ -1,4 +1,17 @@
 function [ap] = myAP(confidence, gt, cls)
+%
+% Copyright Aditya Khosla http://mit.edu/khosla
+%
+% This function demonstrates how to use the code base from
+% the paper listed below.
+%
+% Please cite this paper if you use this code in your publication:
+%   A. Khosla, T. Zhou, T. Malisiewicz, A. Efros, A. Torralba
+%   Undoing the Damage of Dataset Bias
+%   European Conference on Computer Vision (ECCV) 2012
+%   http://undoingbias.csail.mit.edu
+%
+
 assert(length(confidence)==length(gt));
 
 cls_idx = (gt==cls);
