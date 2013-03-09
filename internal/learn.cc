@@ -378,12 +378,12 @@ int main(int argc, char **argv) {
   fclose(f);
   printf("%d examples with label size %d and %d blocks\n",
          num, labelsize, X.numblocks);
-  printf("block size, regularization multiplier, learning rate multiplier\n");
+  /*printf("block size, regularization multiplier, learning rate multiplier\n");
   dim = 0;
   for (int i = 0; i < X.numblocks; i++) {
     dim += X.blocksizes[i];
     printf("%d, %.2f, %.2f\n", X.blocksizes[i], X.regmult[i], X.learnmult[i]);
-  }
+  }*/
 
   //read count file
   D_count = (int*)malloc(sizeof(int) * numdatasets);
@@ -392,14 +392,14 @@ int main(int argc, char **argv) {
   check(f != NULL);
   for(int i1=0; i1<numdatasets; ++i1) D_count[i1] = 0;
   fread(D_count, sizeof(int), numdatasets, f);
-  for(int i1=0; i1<numdatasets; ++i1) printf("d%d: %d\t", i1, D_count[i1]);
-  printf("\n");
+  /*for(int i1=0; i1<numdatasets; ++i1) printf("d%d: %d\t", i1, D_count[i1]);
+  printf("\n");*/
   fclose(f);
 
   // read examples
   f = fopen(datfile, "rb");
   check(f != NULL);
-  printf("Reading examples\n");
+  printf("Reading examples... ");
   char **examples = (char **)malloc(num*sizeof(char *));
   check(examples != NULL);
   for (int i = 0; i < num; i++) {
@@ -436,7 +436,7 @@ int main(int argc, char **argv) {
   printf("done\n");
 
   // sort
-  printf("Sorting examples\n");
+  printf("Sorting examples... ");
   char **sorted = (char **)malloc(num*sizeof(char *));
   check(sorted != NULL);
   memcpy(sorted, examples, num*sizeof(char *));
@@ -462,7 +462,7 @@ int main(int argc, char **argv) {
 
   // collapse examples
   collapse(&X, sorted, num_unique);
-  printf("%d collapsed examples\n", X.num);
+  //printf("%d collapsed examples\n", X.num);
 
   // initial model
   double **w = (double **)malloc(sizeof(double *)*X.numblocks);
