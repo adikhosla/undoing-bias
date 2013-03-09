@@ -1,7 +1,7 @@
 Undoing the Damage of Dataset Bias
 ==================================
 
-This software package contains code for the discriminative framework described in our ECCV 2012 paper, "<a href="http://undoingbias.csail.mit.edu/">Undoing the Damage of Dataset Bias</a>". The provided code has only been tested on Linux 64-bit.
+This software package contains code for the discriminative framework described in our ECCV 2012 paper, "<a href="http://undoingbias.csail.mit.edu/">Undoing the Damage of Dataset Bias</a>". The provided code is for the classification experiments described in the paper, and has only been tested on Linux 64-bit.
 
 Installation
 ------------
