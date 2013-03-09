@@ -29,6 +29,14 @@ We used 4 datasets in our experiments, namely Caltech-101, LabelMe, PASCAL VOC 2
 
 The <a href="http://undoingbias.csail.mit.edu/features.tar">archive</a> contains 4 mat files with features for the train and test images and labels for the five object categories used in our experiments (car, cat, chair, dog, person).
 
+Bundled Code
+------------
+We have modified the code from the discriminatively trained deformable parts model (<a href="http://cs.brown.edu/~pff/latent-release3/">voc-release3</a>) to suit our max-margin framework, and included some auxillary files with no modifications. In addition, we use code from the <a href="http://pascallin.ecs.soton.ac.uk/challenges/VOC/voc2012/">PASCAL VOC</a> development kit for Average Precision (AP) calculation.
+
+Questions and Comments
+----------------------
+If you have any feedback, please email <a href="http://people.csail.mit.edu/khosla">Aditya Khosla</a> at <a href="mailto:khosla@csail.mit.edu">khosla@csail.mit.edu</a>.
+
 Reference
 ---------
 
