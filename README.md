@@ -1,7 +1,7 @@
 Undoing the Damage of Dataset Bias
 ==================================
 
-This software package contains code for the discriminative framework described in our ECCV 2012 paper, "<a href="http://undoingbias.csail.mit.edu/">Undoing the Damage of Dataset Bias</a>". The provided code is for the classification experiments described in the paper, and has only been tested on Linux 64-bit.
+This software package contains code for the discriminative framework described in our ECCV 2012 paper, "<a href="http://undoingbias.csail.mit.edu/">Undoing the Damage of Dataset Bias</a>". The provided code is for the classification experiments described in the paper, and has only been tested on Linux.
 
 Installation
 ------------
@@ -17,8 +17,8 @@ Demo
 
 There are two demo scripts provided in this code to run the classification experiments from the paper: <i>demo_small.m</i> and <i>demo_full.m</i>. <i>demo_small</i> executes the learning code on randomly generated data and completes execution in under 5 seconds. <i>demo_full</i> executes the learning code on the full set of features (details below), and completes execution in about 8 minutes.
 
-    >> demo_small % small demo
-    >> demo_full % full demo
+    >> demo_small
+    >> demo_full
 
 The demo above will output AP values on the unseen test set, as well as AP values on the test partition of the seen sets.
 
