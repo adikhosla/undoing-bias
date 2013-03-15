@@ -2,9 +2,6 @@ function [model] = learnmodel(data_info, C1, C2, lambda)
 %
 % Copyright Aditya Khosla http://mit.edu/khosla
 %
-% This function demonstrates how to use the code base from
-% the paper listed below.
-%
 % Please cite this paper if you use this code in your publication:
 %   A. Khosla, T. Zhou, T. Malisiewicz, A. Efros, A. Torralba
 %   Undoing the Damage of Dataset Bias
