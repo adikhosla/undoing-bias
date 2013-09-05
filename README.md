@@ -25,9 +25,11 @@ The demo above will output AP values on the unseen test set, as well as AP value
 Features for classification experiments
 ---------------------------------------
 
-We used 4 datasets in our experiments, namely Caltech-101, LabelMe, PASCAL VOC 2007 and SUN09 (described in the paper). The features used in the classification experiments are available for download from the <a href="http://undoingbias.csail.mit.edu">project website</a> in Matlab format. 
+We used 4 datasets in our experiments, namely Caltech-101, LabelMe, PASCAL VOC 2007 and SUN09 (described in the paper). The features used in the classification experiments are available for download from the <a href="http://undoingbias.csail.mit.edu">project website</a> in Matlab format.
 
 The <a href="http://undoingbias.csail.mit.edu/features.tar">archive</a> contains 4 mat files with features for the train and test images and labels for the five object categories used in our experiments (car, cat, chair, dog, person).
+
+The code used for feature extraction is available <a href="https://github.com/adikhosla/feature-extraction">here</a>. Note that the default parameters in the feature extraction code may not match the ones used in the paper.
 
 Bundled Code
 ------------
